@@ -22,4 +22,6 @@ To split file, you must nammed your file as "file.csv" and execute this command 
 To insert files in database, you should begin _pm2_ processus.
 > pm2 start index.js
 
-
+## Start App
+To start the app, run
+> pm2 start index.js
