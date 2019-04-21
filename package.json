@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-import-csv-to-mongodb",
+  "version": "1.0.0",
+  "description": "Nodejs Import CSV File to MongoDB using CSV-To-JSON lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/eslint/bin/eslint.js *.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "CSV-File",
+    "CSV-TO-JSON",
+    "MongoDB"
+  ],
+  "author": "Valentin CHEVREAU",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "mongodb": "^3.2.3",
+    "pm2": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
