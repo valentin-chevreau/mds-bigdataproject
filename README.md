@@ -17,11 +17,7 @@ Then, you need to download the file to split available **[here](https://www.data
 To split file, you must nammed your file as "file.csv" and execute this command line
 > node split.js
 
-## Insert files in database
+## Insert files in database and start the app
 
 To insert files in database, you should begin _pm2_ processus.
-> pm2 start index.js
-
-## Start App
-To start the app, run
 > pm2 start index.js
